@@ -13,12 +13,12 @@ if d>0 :
     x1=(-b+d)/(2*a)
     x2=(-b-d)/(2*a)
 
-    print(x1,x2)
+    print("Rovnica má korene "x1,"a",x2)
 
 elif d==0:
     x1=(-b)/(2*a)
 
-    print(x1)
+    print("Rovnica má koreň ",x1)
 
 elif d<0 :
     print("kvadratická rovnica nemá koreň v reálnych číslach")

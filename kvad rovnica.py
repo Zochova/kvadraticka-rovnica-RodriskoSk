@@ -1,8 +1,8 @@
 import math
 
 a=int(input("Zadaj hodnotu a: "))
-b=int(input("Zadaj hodnotu b: "))
-c=int(input("Zadaj hodnotu c: "))
+b=int(input("Zadaj hodnotu b: ") or "0")
+c=int(input("Zadaj hodnotu c: ") or "0")
 
 
 d=(b*b)-(4*a*c)

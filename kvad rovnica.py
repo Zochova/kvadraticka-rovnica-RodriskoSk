@@ -16,7 +16,7 @@ if d>0 :
     print(x1,x2)
 
 elif d==0:
-    x1=(-b+d)/(2*a)
+    x1=(-b)/(2*a)
 
     print(x1)
 

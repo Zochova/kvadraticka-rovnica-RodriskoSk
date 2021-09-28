@@ -3,23 +3,28 @@ import math
 a=int(input("Zadaj hodnotu a: "))
 b=int(input("Zadaj hodnotu b: ") or "0")
 c=int(input("Zadaj hodnotu c: ") or "0")
+if a==0:
+    print("Toto nieje kvadratická rovnica")
+else:
+    
+
+    d=(b*b)-(4*a*c)
 
 
-d=(b*b)-(4*a*c)
 
-if d>0 :
-    d=math.sqrt(d)
+    if d>0 :
+        d=math.sqrt(d)
 
-    x1=(-b+d)/(2*a)
-    x2=(-b-d)/(2*a)
+        x1=(-b+d)/(2*a)
+        x2=(-b-d)/(2*a)
 
-    print("Rovnica má korene "x1,"a",x2)
+        print("Rovnica má korene "x1,"a",x2)
 
-elif d==0:
-    x1=(-b)/(2*a)
+    elif d==0:
+        x1=(-b)/(2*a)
 
-    print("Rovnica má koreň ",x1)
+        print("Rovnica má koreň ",x1)
 
-elif d<0 :
-    print("kvadratická rovnica nemá koreň v reálnych číslach")
+    elif d<0 :
+        print("kvadratická rovnica nemá koreň v reálnych číslach")
 
